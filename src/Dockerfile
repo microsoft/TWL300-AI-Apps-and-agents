@@ -1,5 +1,5 @@
-FROM python:3.12-slim
-
+#FROM python:3.12-slim
+FROM mcr.microsoft.com/devcontainers/python:3.12
 # Install uv and upgrade system packages to reduce vulnerabilities
 COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
 RUN apt-get update && apt-get upgrade -y && rm -rf /var/lib/apt/lists/*
