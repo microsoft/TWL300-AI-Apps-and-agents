@@ -177,15 +177,15 @@ wheels = [
 
 [[package]]
 name = "agent-framework-claude"
-version = "1.0.0b260402"
+version = "1.0.0b260311"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "agent-framework-core" },
     { name = "claude-agent-sdk" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/34/07/f4b81d6c2a02cde03f32936fb00973375ef1743ba7fee69a72db040fe1b3/agent_framework_claude-1.0.0b260402.tar.gz", hash = "sha256:a04cc77fb44aaa884007be2e2ae4ad63b270f3d7f765d277f0344fd7225e187a", size = 10362, upload-time = "2026-04-02T16:39:02.244Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/af/3c/61357a8087622e01d86326c7ab1122cf66dc5f2c270e8de29168642a1c75/agent_framework_claude-1.0.0b260311.tar.gz", hash = "sha256:0b815aa9c05dd30ac9e2b712cf0d3eeb1db2cb103247d5eacea53db294a1a27c", size = 9914, upload-time = "2026-03-11T23:20:01.978Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ba/ff/8d02d4178b2118d3e5e6a3a34492fb815bdc990beadf9537529465914243/agent_framework_claude-1.0.0b260402-py3-none-any.whl", hash = "sha256:257ba55e48b78d29cf007e241c9498b16f32a05abef0405930ec909990010163", size = 10399, upload-time = "2026-04-02T16:39:40.763Z" },
+    { url = "https://files.pythonhosted.org/packages/61/87/255580338e1160d87a4d573b38823142e600b7438b42f9a6f317e45d328e/agent_framework_claude-1.0.0b260311-py3-none-any.whl", hash = "sha256:d6628e2b4bb6198d299d1eca08fb2195084317b31ca5feff378c6f5187671a94", size = 9970, upload-time = "2026-03-11T23:19:34.938Z" },
 ]
 
 [[package]]
@@ -1121,18 +1121,20 @@ wheels = [
 
 [[package]]
 name = "claude-agent-sdk"
-version = "0.1.48"
+version = "0.2.121"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "anyio" },
     { name = "mcp" },
+    { name = "sniffio" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/6c/dd/2818538efd18ed4ef72d4775efa75bb36cbea0fa418eda51df85ee9c2424/claude_agent_sdk-0.1.48.tar.gz", hash = "sha256:ee294d3f02936c0b826119ffbefcf88c67731cf8c2d2cb7111ccc97f76344272", size = 87375, upload-time = "2026-03-07T00:21:37.087Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/73/9a/7b176b2afef7e4b671bf3723c2a3b09f912ee071e06c15f7f09c46d30ca2/claude_agent_sdk-0.2.121.tar.gz", hash = "sha256:a00f313ebbbf9a7756ec8734c9e9c3c11c53bd56b144dcbd35d4b1bc54fa1d08", size = 297004, upload-time = "2026-07-17T00:38:20.495Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/c3/cf/bbbdee52ee0c63c8709b0ac03ce3c1da5bdc37def5da0eca63363448744f/claude_agent_sdk-0.1.48-py3-none-macosx_11_0_arm64.whl", hash = "sha256:5761ff1d362e0f17c2b1bfd890d1c897f0aa81091e37bbd15b7d06f05ced552d", size = 57559306, upload-time = "2026-03-07T00:21:20.011Z" },
-    { url = "https://files.pythonhosted.org/packages/57/d1/2179154b88d4cf6ba1cf6a15066ee8e96257aaeb1330e625e809ba2f28eb/claude_agent_sdk-0.1.48-py3-none-manylinux_2_17_aarch64.whl", hash = "sha256:39c1307daa17e42fa8a71180bb20af8a789d72d3891fc93519ff15540badcb83", size = 73980309, upload-time = "2026-03-07T00:21:24.592Z" },
-    { url = "https://files.pythonhosted.org/packages/dc/99/55b0cd3bf54a7449e744d23cf50be104e9445cf623e1ed75722112aa6264/claude_agent_sdk-0.1.48-py3-none-manylinux_2_17_x86_64.whl", hash = "sha256:543d70acba468eccfff836965a14b8ac88cf90809aeeb88431dfcea3ee9a2fa9", size = 74583686, upload-time = "2026-03-07T00:21:28.969Z" },
-    { url = "https://files.pythonhosted.org/packages/c8/f6/4851bd9a238b7aadba7639eb906aca7da32a51f01563fa4488469c608b3a/claude_agent_sdk-0.1.48-py3-none-win_amd64.whl", hash = "sha256:0d37e60bd2b17efc3f927dccef080f14897ab62cd1d0d67a4abc8a0e2d4f1006", size = 74956045, upload-time = "2026-03-07T00:21:33.475Z" },
+    { url = "https://files.pythonhosted.org/packages/ca/3b/16325094d09ca5fbfb92cab11c6f01ff072f4077879ecfcf0004464da3c5/claude_agent_sdk-0.2.121-py3-none-macosx_11_0_arm64.whl", hash = "sha256:6d4707c4626434e75c35f350e66312d8447221c97208f1775d4b4c6542b8d2f2", size = 71735241, upload-time = "2026-07-17T00:38:23.74Z" },
+    { url = "https://files.pythonhosted.org/packages/53/d8/cfcd5ea965e0e54cdab58d74d01580489eb5cc02c331e1d2577083b12c06/claude_agent_sdk-0.2.121-py3-none-macosx_11_0_x86_64.whl", hash = "sha256:9c58d83ae9feacc3f06038d86c403e3785a166ef27ae5ae52842864c9a72b90f", size = 76705265, upload-time = "2026-07-17T00:38:27.559Z" },
+    { url = "https://files.pythonhosted.org/packages/bb/6d/304282a3e73fa528621508fc205f608c48ca679b176a7ba7003e7e4bcf25/claude_agent_sdk-0.2.121-py3-none-manylinux_2_17_aarch64.whl", hash = "sha256:e5b788269f731e73b89785415010fa750ddcf0f35eb9bb4a20bc64e9f52356b4", size = 81636213, upload-time = "2026-07-17T00:38:31.038Z" },
+    { url = "https://files.pythonhosted.org/packages/8c/a8/b08d07d090bf07bd84a4243f98813b1c2bea6dc310aa58a7581f216ee89f/claude_agent_sdk-0.2.121-py3-none-manylinux_2_17_x86_64.whl", hash = "sha256:65ccbb1bbeed53d8bc60e87a1d46b903b8ba5636a6b300eaa0d284035f844ece", size = 82695285, upload-time = "2026-07-17T00:38:35.198Z" },
+    { url = "https://files.pythonhosted.org/packages/e0/69/af814cc15b00ce97132714052a5b3374151d2697fb559600c6187853f327/claude_agent_sdk-0.2.121-py3-none-win_amd64.whl", hash = "sha256:aa34c094aa9278823d64292db0a624bf1dadb800bcc769a96742393fcf01fb9f", size = 82562260, upload-time = "2026-07-17T00:38:38.674Z" },
 ]
 
 [[package]]
@@ -1152,7 +1154,7 @@ name = "clr-loader"
 version = "0.2.10"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
-    { name = "cffi", marker = "python_full_version < '3.14'" },
+    { name = "cffi" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/18/24/c12faf3f61614b3131b5c98d3bf0d376b49c7feaa73edca559aeb2aee080/clr_loader-0.2.10.tar.gz", hash = "sha256:81f114afbc5005bafc5efe5af1341d400e22137e275b042a8979f3feb9fc9446", size = 83605, upload-time = "2026-01-03T23:13:06.984Z" }
 wheels = [
@@ -3160,8 +3162,8 @@ name = "powerfx"
 version = "0.0.34"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
-    { name = "cffi", marker = "python_full_version < '3.14'" },
-    { name = "pythonnet", marker = "python_full_version < '3.14'" },
+    { name = "cffi" },
+    { name = "pythonnet" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/9f/fb/6c4bf87e0c74ca1c563921ce89ca1c5785b7576bca932f7255cdf81082a7/powerfx-0.0.34.tar.gz", hash = "sha256:956992e7afd272657ed16d80f4cad24ec95d9e4a79fb9dfa4a068a09e136af32", size = 3237555, upload-time = "2025-12-22T15:50:59.682Z" }
 wheels = [
@@ -3686,7 +3688,7 @@ name = "pythonnet"
 version = "3.0.5"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
-    { name = "clr-loader", marker = "python_full_version < '3.14'" },
+    { name = "clr-loader" },
 ]
 sdist = { url = "https://files.pythonhosted.org/packages/9a/d6/1afd75edd932306ae9bd2c2d961d603dc2b52fcec51b04afea464f1f6646/pythonnet-3.0.5.tar.gz", hash = "sha256:48e43ca463941b3608b32b4e236db92d8d40db4c58a75ace902985f76dac21cf", size = 239212, upload-time = "2024-12-13T08:30:44.393Z" }
 wheels = [
